@@ -17,7 +17,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          📸 BotherHood Photography
+          📸 <span className="logo-text">BrotherHood Photography</span>
         </Link>
         
         <div className="menu-icon" onClick={toggleMobileMenu}>

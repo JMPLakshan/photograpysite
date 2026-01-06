@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3>BotherHood Photography</h3>
+          <h3>BrotherHood Photography</h3>
           <p>Capturing moments that last forever. Professional photography services for all your special occasions.</p>
           <div className="social-links">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">📘</a>

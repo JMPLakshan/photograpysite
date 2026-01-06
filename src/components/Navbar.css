@@ -38,6 +38,12 @@
   gap: 0.5rem;
 }
 
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
 .navbar-logo:hover {
   transform: translateY(-2px);
 }
@@ -174,5 +180,9 @@
 
   .navbar-logo {
     font-size: 1.3rem;
+  }
+
+  .logo-text {
+    font-size: 1.1rem;
   }
 }
