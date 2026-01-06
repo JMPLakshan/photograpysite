@@ -11,7 +11,7 @@ function Gallery() {
     { id: 4, category: 'wedding', url: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800', title: 'Wedding Details' },
     { id: 5, category: 'event', url: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800', title: 'Event Coverage' },
     { id: 6, category: 'portrait', url: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800', title: 'Studio Portrait' },
-    { id: 7, category: 'landscape', url: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800', title: 'Sunset Landscape' },
+    { id: 7, category: 'landscape', url: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800', title: 'Sunset Landscape' },
     { id: 8, category: 'wedding', url: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800', title: 'Wedding Reception' },
     { id: 9, category: 'event', url: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800', title: 'Corporate Event' },
     { id: 10, category: 'portrait', url: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800', title: 'Professional Headshot' },

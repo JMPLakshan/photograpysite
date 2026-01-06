@@ -50,7 +50,7 @@ function Contact() {
               <div className="info-icon">📍</div>
               <div>
                 <h3>Address</h3>
-                <p>123 Photography Street<br />Colombo, Sri Lanka</p>
+                <p>75/A Dikwela<br />Yogiyana, Sri Lanka</p>
               </div>
             </div>
             
@@ -58,7 +58,7 @@ function Contact() {
               <div className="info-icon">📞</div>
               <div>
                 <h3>Phone</h3>
-                <p>+94 XX XXX XXXX<br />+94 YY YYY YYYY</p>
+                <p>+94 77 151 2453<br />+94 76 644 0370</p>
               </div>
             </div>
             
@@ -66,7 +66,7 @@ function Contact() {
               <div className="info-icon">✉️</div>
               <div>
                 <h3>Email</h3>
-                <p>info@botherhoodphoto.com<br />bookings@botherhoodphoto.com</p>
+                <p>pramodyaanuth17@gmail.com<br />pasindul586@gmail.com</p>
               </div>
             </div>
             
