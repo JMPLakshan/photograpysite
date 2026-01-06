@@ -108,6 +108,64 @@ function Home() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="testimonials-section">
+        <div className="container">
+          <h2 className="section-title">What Our Clients Say</h2>
+          <p className="section-subtitle">Real stories from real clients</p>
+          
+          <div className="testimonials-grid">
+            <div className="testimonial-card">
+              <div className="stars">⭐⭐⭐⭐⭐</div>
+              <p className="testimonial-text">
+                "BotherHood Photography captured our wedding day perfectly! Every moment was 
+                beautifully documented. Their professionalism and creativity exceeded our expectations. 
+                We'll treasure these photos forever!"
+              </p>
+              <div className="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100" alt="Client" />
+                <div>
+                  <h4>Sarah & John</h4>
+                  <p>Wedding Photography</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="testimonial-card">
+              <div className="stars">⭐⭐⭐⭐⭐</div>
+              <p className="testimonial-text">
+                "Amazing family portraits! The team made us feel comfortable and captured our 
+                family's personality perfectly. The photos are absolutely stunning and we've 
+                received so many compliments!"
+              </p>
+              <div className="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="Client" />
+                <div>
+                  <h4>Michael Rodriguez</h4>
+                  <p>Portrait Session</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="testimonial-card">
+              <div className="stars">⭐⭐⭐⭐⭐</div>
+              <p className="testimonial-text">
+                "Professional, creative, and reliable! They covered our corporate event and 
+                delivered exceptional photos that we're using across all our marketing materials. 
+                Highly recommended!"
+              </p>
+              <div className="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100" alt="Client" />
+                <div>
+                  <h4>Jennifer Chen</h4>
+                  <p>Corporate Event</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="cta-section">
         <div className="container">
