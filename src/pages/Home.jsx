@@ -108,6 +108,64 @@ function Home() {
         </div>
       </section>
 
+      {/* Photo Tours Section */}
+      <section className="photo-tours-preview">
+        <div className="container">
+          <h2 className="section-title">Explore Sri Lanka with Photo Tours</h2>
+          <p className="section-subtitle">Capture iconic destinations with professional photographers</p>
+          
+          <div className="tours-preview-grid">
+            <div className="tour-preview-card">
+              <div className="tour-preview-image">
+                <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=600" alt="Sigiriya" />
+              </div>
+              <div className="tour-preview-content">
+                <h3>🏯 Sigiriya Rock Fortress</h3>
+                <p>Ancient wonder with stunning views</p>
+                <span className="tour-preview-price">From $450</span>
+              </div>
+            </div>
+
+            <div className="tour-preview-card">
+              <div className="tour-preview-image">
+                <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600" alt="Beach" />
+              </div>
+              <div className="tour-preview-content">
+                <h3>🏖️ Hikkaduwa Beach</h3>
+                <p>Tropical paradise photography</p>
+                <span className="tour-preview-price">From $380</span>
+              </div>
+            </div>
+
+            <div className="tour-preview-card">
+              <div className="tour-preview-image">
+                <img src="https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?w=600" alt="Nuwara Eliya" />
+              </div>
+              <div className="tour-preview-content">
+                <h3>☕ Nuwara Eliya</h3>
+                <p>Tea plantations & misty mountains</p>
+                <span className="tour-preview-price">From $420</span>
+              </div>
+            </div>
+
+            <div className="tour-preview-card">
+              <div className="tour-preview-image">
+                <img src="https://images.unsplash.com/photo-1570789210967-2cac24afeb00?w=600" alt="Ella" />
+              </div>
+              <div className="tour-preview-content">
+                <h3>🌉 Ella & Nine Arch Bridge</h3>
+                <p>Iconic bridge & mountain views</p>
+                <span className="tour-preview-price">From $395</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="tours-preview-cta">
+            <Link to="/photo-tours" className="btn btn-primary">View All Photo Tours</Link>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section className="testimonials-section">
         <div className="container">

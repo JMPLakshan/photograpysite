@@ -5,6 +5,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
+import PhotoTours from './pages/PhotoTours';
 import Gallery from './pages/Gallery';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/photo-tours" element={<PhotoTours />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
