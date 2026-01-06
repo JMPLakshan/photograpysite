@@ -40,6 +40,9 @@ function Navbar() {
             <Link to="/photo-tours" className="nav-link" onClick={closeMobileMenu}>Photo Tours</Link>
           </li>
           <li className="nav-item">
+            <Link to="/cultural-festivals" className="nav-link" onClick={closeMobileMenu}>Festivals</Link>
+          </li>
+          <li className="nav-item">
             <Link to="/gallery" className="nav-link" onClick={closeMobileMenu}>Gallery</Link>
           </li>
           <li className="nav-item">

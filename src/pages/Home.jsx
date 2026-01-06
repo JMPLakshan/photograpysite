@@ -224,6 +224,72 @@ function Home() {
         </div>
       </section>
 
+      {/* Cultural Festivals Preview Section */}
+      <section className="festivals-preview">
+        <div className="container">
+          <h2 className="section-title">Cultural Festivals Photography</h2>
+          <p className="section-subtitle">Capture the vibrant traditions and celebrations of Sri Lanka</p>
+          
+          <div className="festivals-preview-grid">
+            <div className="festival-preview-card">
+              <div className="festival-preview-image">
+                <img src="https://images.unsplash.com/photo-1599982629236-73a5c1c7c4bb?w=500" alt="New Year" />
+              </div>
+              <div className="festival-preview-content">
+                <span className="festival-emoji">🎊</span>
+                <h3>Sinhala & Tamil New Year</h3>
+                <p className="festival-month">April</p>
+                <p>Traditional games, customs, and rituals</p>
+                <span className="festival-preview-price">From $650</span>
+              </div>
+            </div>
+
+            <div className="festival-preview-card">
+              <div className="festival-preview-image">
+                <img src="https://images.unsplash.com/photo-1528991435120-e73e05a58897?w=500" alt="Vesak" />
+              </div>
+              <div className="festival-preview-content">
+                <span className="festival-emoji">🏮</span>
+                <h3>Vesak Festival</h3>
+                <p className="festival-month">May</p>
+                <p>Illuminated pandals and spiritual beauty</p>
+                <span className="festival-preview-price">From $580</span>
+              </div>
+            </div>
+
+            <div className="festival-preview-card">
+              <div className="festival-preview-image">
+                <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=500" alt="Kite Festival" />
+              </div>
+              <div className="festival-preview-content">
+                <span className="festival-emoji">🪁</span>
+                <h3>Kite Festival</h3>
+                <p className="festival-month">August-September</p>
+                <p>Colorful kites and coastal celebrations</p>
+                <span className="festival-preview-price">From $320</span>
+              </div>
+            </div>
+
+            <div className="festival-preview-card">
+              <div className="festival-preview-image">
+                <img src="https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=500" alt="Christmas" />
+              </div>
+              <div className="festival-preview-content">
+                <span className="festival-emoji">🎄</span>
+                <h3>Christmas Celebrations</h3>
+                <p className="festival-month">December</p>
+                <p>Festive traditions and family gatherings</p>
+                <span className="festival-preview-price">From $480</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="preview-cta">
+            <Link to="/cultural-festivals" className="btn btn-primary">View All Festival Packages</Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="cta-section">
         <div className="container">

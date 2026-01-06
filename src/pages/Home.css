@@ -454,3 +454,131 @@
     transform: scale(1);
   }
 }
+
+/* Festivals Preview Section */
+.festivals-preview {
+  padding: 5rem 2rem;
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+}
+
+.festivals-preview .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.festivals-preview .section-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.festivals-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+}
+
+.festival-preview-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+}
+
+.festival-preview-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(102, 126, 234, 0.3);
+  border-color: #667eea;
+}
+
+.festival-preview-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.festival-preview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.festival-preview-card:hover .festival-preview-image img {
+  transform: scale(1.1);
+}
+
+.festival-preview-content {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.festival-preview-content .festival-emoji {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.festival-preview-content h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.festival-preview-content .festival-month {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.festival-preview-content p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.festival-preview-price {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 0.5rem;
+}
+
+.preview-cta {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .festivals-preview {
+    padding: 3rem 1.5rem;
+  }
+
+  .festivals-preview .section-title {
+    font-size: 1.8rem;
+  }
+
+  .festivals-preview-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

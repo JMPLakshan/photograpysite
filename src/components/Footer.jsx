@@ -23,6 +23,7 @@ function Footer() {
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/services">Services</Link></li>
             <li><Link to="/photo-tours">Photo Tours</Link></li>
+            <li><Link to="/cultural-festivals">Festivals</Link></li>
             <li><Link to="/gallery">Gallery</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
