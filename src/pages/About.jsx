@@ -6,8 +6,8 @@ function About() {
       {/* Hero Section */}
       <section className="about-hero">
         <div className="about-hero-content">
-          <h1>About BotherHood Photography</h1>
-          <p>Capturing Memories, Creating Art, Telling Stories</p>
+          <h1 className="animated-title">About BotherHood Photography</h1>
+          <p className="animated-subtitle">Capturing Memories, Creating Art, Telling Stories</p>
         </div>
       </section>
 
@@ -16,19 +16,19 @@ function About() {
         <div className="container">
           <div className="story-content">
             <div className="story-text">
-              <h2>Our Story</h2>
-              <p>
+              <h2 className="animated-title">Our Story</h2>
+              <p className="animated-subtitle">
                 Founded in 2018, BotherHood Photography began with a simple passion: to capture life's 
                 most precious moments through the lens of artistry and emotion. What started as a dream 
                 has blossomed into a full-service photography studio, trusted by hundreds of clients 
                 across Sri Lanka.
               </p>
-              <p>
+              <p className="animated-subtitle">
                 Our name "BotherHood" represents the bond we create with every client – treating each 
                 project as if it were for our own family. We believe that great photography is not just 
                 about technical perfection, but about connecting with people and understanding their stories.
               </p>
-              <p>
+              <p className="animated-subtitle">
                 Today, we're proud to be one of the most sought-after photography studios, known for 
                 our creative vision, professional approach, and commitment to excellence.
               </p>
@@ -44,7 +44,7 @@ function About() {
       <section className="mission-vision">
         <div className="container">
           <div className="mv-grid">
-            <div className="mv-card">
+            <div className="mv-card animated-feature">
               <div className="mv-icon">🎯</div>
               <h3>Our Mission</h3>
               <p>
@@ -52,7 +52,7 @@ function About() {
                 stories, preserving memories that will be cherished for generations.
               </p>
             </div>
-            <div className="mv-card">
+            <div className="mv-card animated-feature">
               <div className="mv-icon">👁️</div>
               <h3>Our Vision</h3>
               <p>
@@ -60,7 +60,7 @@ function About() {
                 techniques, and unparalleled client experiences.
               </p>
             </div>
-            <div className="mv-card">
+            <div className="mv-card animated-feature">
               <div className="mv-icon">💎</div>
               <h3>Our Values</h3>
               <p>
@@ -75,11 +75,11 @@ function About() {
       {/* Team Section */}
       <section className="team-section">
         <div className="container">
-          <h2 className="section-title">Meet Our Team</h2>
-          <p className="section-subtitle">Talented photographers passionate about their craft</p>
+          <h2 className="section-title animated-title">Meet Our Team</h2>
+          <p className="section-subtitle animated-subtitle">Talented photographers passionate about their craft</p>
           
           <div className="team-grid">
-            <div className="team-card">
+            <div className="team-card animated-feature">
               <div className="team-image">
                 <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400" alt="Team Member" />
               </div>
@@ -93,7 +93,7 @@ function About() {
               </div>
             </div>
 
-            <div className="team-card">
+            <div className="team-card animated-feature">
               <div className="team-image">
                 <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400" alt="Team Member" />
               </div>
@@ -107,7 +107,7 @@ function About() {
               </div>
             </div>
 
-            <div className="team-card">
+            <div className="team-card animated-feature">
               <div className="team-image">
                 <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400" alt="Team Member" />
               </div>
@@ -121,7 +121,7 @@ function About() {
               </div>
             </div>
 
-            <div className="team-card">
+            <div className="team-card animated-feature">
               <div className="team-image">
                 <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400" alt="Team Member" />
               </div>
@@ -142,19 +142,19 @@ function About() {
       <section className="stats-section">
         <div className="container">
           <div className="stats-grid">
-            <div className="stat-item">
+            <div className="stat-item animated-feature">
               <h3>500+</h3>
               <p>Happy Clients</p>
             </div>
-            <div className="stat-item">
+            <div className="stat-item animated-feature">
               <h3>1000+</h3>
               <p>Projects Completed</p>
             </div>
-            <div className="stat-item">
+            <div className="stat-item animated-feature">
               <h3>15+</h3>
               <p>Awards Won</p>
             </div>
-            <div className="stat-item">
+            <div className="stat-item animated-feature">
               <h3>8+</h3>
               <p>Years Experience</p>
             </div>

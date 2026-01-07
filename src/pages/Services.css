@@ -237,6 +237,34 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
+/* Animations */
+.animated-title {
+  animation: fadeInUp 1s ease;
+}
+
+.animated-subtitle {
+  animation: fadeInUp 1s ease 0.2s both;
+}
+
+.animated-feature {
+  animation: fadeInUp 1s ease 0.4s both;
+}
+
+.animated-button {
+  animation: fadeInUp 1s ease 0.6s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .services-hero-content h1 {

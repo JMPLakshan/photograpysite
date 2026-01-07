@@ -106,8 +106,8 @@ function Services() {
       {/* Hero Section */}
       <section className="services-hero">
         <div className="services-hero-content">
-          <h1>Our Photography Services</h1>
-          <p>Professional photography tailored to your needs</p>
+          <h1 className="animated-title">Our Photography Services</h1>
+          <p className="animated-subtitle">Professional photography tailored to your needs</p>
         </div>
       </section>
 
@@ -115,8 +115,8 @@ function Services() {
       <section className="services-container">
         <div className="container">
           <div className="services-intro">
-            <h2>What We Offer</h2>
-            <p>
+            <h2 className="animated-title">What We Offer</h2>
+            <p className="animated-subtitle">
               From intimate moments to grand celebrations, we provide comprehensive photography 
               services with professional quality and personalized attention to detail.
             </p>
@@ -150,24 +150,24 @@ function Services() {
       {/* Why Choose Us */}
       <section className="why-choose-us">
         <div className="container">
-          <h2>Why Choose BotherHood Photography?</h2>
+          <h2 className="animated-title">Why Choose BotherHood Photography?</h2>
           <div className="features-grid">
-            <div className="feature-item">
+            <div className="feature-item animated-feature">
               <div className="feature-icon">⭐</div>
               <h3>Professional Quality</h3>
               <p>State-of-the-art equipment and expert photographers</p>
             </div>
-            <div className="feature-item">
+            <div className="feature-item animated-feature">
               <div className="feature-icon">⚡</div>
               <h3>Fast Turnaround</h3>
               <p>Receive your edited photos within 2-3 weeks</p>
             </div>
-            <div className="feature-item">
+            <div className="feature-item animated-feature">
               <div className="feature-icon">💝</div>
               <h3>Personalized Service</h3>
               <p>Tailored packages to match your specific needs</p>
             </div>
-            <div className="feature-item">
+            <div className="feature-item animated-feature">
               <div className="feature-icon">🎨</div>
               <h3>Creative Excellence</h3>
               <p>Artistic vision combined with technical expertise</p>
@@ -179,9 +179,9 @@ function Services() {
       {/* CTA Section */}
       <section className="services-cta">
         <div className="container">
-          <h2>Ready to Capture Your Moments?</h2>
-          <p>Let's discuss your photography needs and create something beautiful together</p>
-          <Link to="/contact" className="cta-button">Get a Free Quote</Link>
+          <h2 className="animated-title">Ready to Capture Your Moments?</h2>
+          <p className="animated-subtitle">Let's discuss your photography needs and create something beautiful together</p>
+          <Link to="/contact" className="cta-button animated-button">Get a Free Quote</Link>
         </div>
       </section>
     </div>
