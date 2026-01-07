@@ -11,6 +11,7 @@ import Gallery from './pages/Gallery';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Contact from './pages/Contact';
+import Shop from './pages/Shop';
 import NotFound from './pages/NotFound';
 import './App.css';
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/photo-tours" element={<PhotoTours />} />
             <Route path="/cultural-festivals" element={<CulturalFestivals />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/shop" element={<Shop />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/contact" element={<Contact />} />

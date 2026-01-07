@@ -290,6 +290,64 @@ function Home() {
         </div>
       </section>
 
+      {/* Shop Section */}
+      <section className="shop-section">
+        <div className="container">
+          <h2 className="section-title">Shop Photography Items & Decorations</h2>
+          <p className="section-subtitle">Premium photo frames, equipment, birthday suits, and decorations</p>
+          
+          <div className="shop-grid">
+            <div className="shop-item">
+              <div className="shop-item-image">
+                <img src="https://images.unsplash.com/photo-1596727147700-6a0db6fb5a09?w=600" alt="Premium Photo Frame" />
+              </div>
+              <div className="shop-item-content">
+                <h3>Premium Photo Frames</h3>
+                <p>Elegant wooden and metal frames to showcase your beautiful memories</p>
+                <Link to="/shop" className="btn btn-primary">View Frames</Link>
+              </div>
+            </div>
+
+            <div className="shop-item">
+              <div className="shop-item-image">
+                <img src="https://images.unsplash.com/photo-1504150554257-6f5c97f00d8d?w=600" alt="Photo Equipment" />
+              </div>
+              <div className="shop-item-content">
+                <h3>Photo Equipment</h3>
+                <p>Professional cameras, lenses, and accessories for perfect shots</p>
+                <Link to="/shop" className="btn btn-primary">View Equipment</Link>
+              </div>
+            </div>
+
+            <div className="shop-item">
+              <div className="shop-item-image">
+                <img src="https://images.unsplash.com/photo-1558591718-50d1b53d1d10?w=600" alt="Birthday Suits" />
+              </div>
+              <div className="shop-item-content">
+                <h3>Birthday Suits & Decorations</h3>
+                <p>Complete packages for memorable birthday celebrations</p>
+                <Link to="/shop" className="btn btn-primary">View Birthday Items</Link>
+              </div>
+            </div>
+
+            <div className="shop-item">
+              <div className="shop-item-image">
+                <img src="https://images.unsplash.com/photo-1528991435120-e73e05a58897?w=600" alt="Festival Decorations" />
+              </div>
+              <div className="shop-item-content">
+                <h3>Festival Decorations</h3>
+                <p>Traditional and modern decorations for cultural celebrations</p>
+                <Link to="/shop" className="btn btn-primary">View Decorations</Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="shop-cta">
+            <Link to="/shop" className="btn btn-primary">View All Shop Items</Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="cta-section">
         <div className="container">
