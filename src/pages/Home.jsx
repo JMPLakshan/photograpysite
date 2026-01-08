@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import homeBackgroundImage from '/src/assets/Home/home.jpg';
 import './Home.css';
 
 function Home() {
@@ -6,6 +7,9 @@ function Home() {
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
+        <div className="hero-image">
+          <img src={homeBackgroundImage} alt="BotherHood Photography" />
+        </div>
         <div className="hero-overlay">
           <div className="hero-content">
             <h1 className="hero-title">BotherHood Photography</h1>

@@ -5,6 +5,7 @@ import productImage3 from '/src/assets/Featured Products/shop3.jpg';
 import productImage4 from '/src/assets/Featured Products/shop4.jpg';
 import productImage5 from '/src/assets/Featured Products/shop5.jpg';
 import productImage6 from '/src/assets/Featured Products/shop6.jpg';
+import shopHomeImage from '/src/assets/Featured Products/shophome.jpg';
 import './Shop.css';
 import './Home.css'; // Importing Home.css for consistent styling
 
@@ -65,6 +66,9 @@ function Shop() {
     <div className="shop">
       {/* Hero Section */}
       <section className="hero">
+        <div className="hero-image">
+          <img src={shopHomeImage} alt="Our Shop" />
+        </div>
         <div className="hero-overlay">
           <div className="hero-content">
             <h1 className="hero-title">Our Shop</h1>

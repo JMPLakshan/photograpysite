@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import tourHomeImage from '/src/assets/Photography Tour Packages/Tourhome.jpg';
 import './PhotoTours.css';
 
 function PhotoTours() {
@@ -209,9 +210,12 @@ function PhotoTours() {
     <div className="phototours-page">
       {/* Hero Section */}
       <section className="phototours-hero">
+        <div className="phototours-hero-image">
+          <img src={tourHomeImage} alt="Photography Tour Packages" />
+        </div>
         <div className="phototours-hero-overlay">
           <div className="phototours-hero-content">
-            <h1>📸 Photography Tour Packages</h1>
+            <h1>Photography Tour Packages</h1>
             <p>Capture Sri Lanka's Beauty with Professional Photography</p>
             <p className="hero-subtitle">Explore iconic destinations with expert photographers</p>
           </div>
