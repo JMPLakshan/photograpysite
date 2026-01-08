@@ -1,4 +1,12 @@
 import React from 'react';
+import festivalImage1 from '/src/assets/Festival/festival1.jpg';
+import festivalImage2 from '/src/assets/Festival/festival2.jpg';
+import festivalImage3 from '/src/assets/Festival/festival3.jpg';
+import festivalImage4 from '/src/assets/Festival/festival4.jpg';
+import festivalImage5 from '/src/assets/Festival/festival5.jpg';
+import festivalImage6 from '/src/assets/Festival/festival6.jpg';
+import festivalImage7 from '/src/assets/Festival/festival7.jpg';
+import festivalImage8 from '/src/assets/Festival/festival8.jpg';
 import './CulturalFestivals.css';
 
 function CulturalFestivals() {
@@ -8,6 +16,7 @@ function CulturalFestivals() {
       festival: 'Sinhala & Tamil New Year',
       month: 'April',
       emoji: '🎊',
+      image: festivalImage1,
       description: 'Capture the vibrant traditions and rituals of the Sinhala and Tamil New Year celebrations. From traditional games to customary rituals, we document the essence of this joyous occasion.',
       highlights: [
         'Traditional New Year games (Kotta Pora, Pillow Fight, etc.)',
@@ -39,6 +48,7 @@ function CulturalFestivals() {
       festival: 'Vesak Festival',
       month: 'May',
       emoji: '🏮',
+      image: festivalImage2,
       description: 'Document the spiritual beauty of Vesak, the most sacred Buddhist festival. Capture illuminated pandals, dansal (alms giving), and the serene atmosphere of devotion.',
       highlights: [
         'Illuminated Vesak lanterns and pandals',
@@ -70,6 +80,7 @@ function CulturalFestivals() {
       festival: 'Kite Festival Season',
       month: 'August-September',
       emoji: '🪁',
+      image: festivalImage3,
       description: 'Capture the colorful spectacle of kite flying season, especially popular in coastal areas. Document the competitive spirit, traditional designs, and joyful atmosphere.',
       highlights: [
         'Colorful kites against blue skies',
@@ -101,6 +112,7 @@ function CulturalFestivals() {
       festival: 'Christmas Celebrations',
       month: 'December',
       emoji: '🎄',
+      image: festivalImage4,
       description: 'Document the festive spirit of Christmas in Sri Lanka with unique local traditions, church services, decorations, and family celebrations.',
       highlights: [
         'Church midnight mass photography',
@@ -132,6 +144,7 @@ function CulturalFestivals() {
       festival: 'Kandy Esala Perahera',
       month: 'July-August',
       emoji: '🐘',
+      image: festivalImage5,
       description: 'Capture one of Asia\'s most magnificent cultural pageants. Document the grand procession of decorated elephants, traditional dancers, and cultural performers.',
       highlights: [
         'Decorated elephants in procession',
@@ -163,6 +176,7 @@ function CulturalFestivals() {
       festival: 'Poson Festival',
       month: 'June',
       emoji: '☸️',
+      image: festivalImage6,
       description: 'Document the sacred Poson festival commemorating the arrival of Buddhism in Sri Lanka. Capture pilgrims at Mihintale and sacred ceremonies.',
       highlights: [
         'Mihintale temple pilgrimage',
@@ -194,6 +208,7 @@ function CulturalFestivals() {
       festival: 'Deepavali (Festival of Lights)',
       month: 'October-November',
       emoji: '🪔',
+      image: festivalImage7,
       description: 'Capture the vibrant Tamil Hindu festival of lights. Document oil lamp lighting, rangoli designs, family celebrations, and temple visits.',
       highlights: [
         'Traditional oil lamp lighting',
@@ -225,6 +240,7 @@ function CulturalFestivals() {
       festival: 'Navam Perahera (Colombo)',
       month: 'February',
       emoji: '🎭',
+      image: festivalImage8,
       description: 'Document the grand Buddhist procession in Colombo featuring elephants, dancers, and traditional performers at Gangaramaya Temple.',
       highlights: [
         'Decorated elephants parade',
@@ -290,6 +306,9 @@ function CulturalFestivals() {
           <div className="festivals-grid">
             {festivalPackages.map((festival) => (
               <div key={festival.id} className="festival-card">
+                <div className="festival-image">
+                  <img src={festival.image} alt={festival.festival} />
+                </div>
                 <div className="festival-header">
                   <span className="festival-emoji">{festival.emoji}</span>
                   <div className="festival-title-group">

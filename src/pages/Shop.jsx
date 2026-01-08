@@ -1,4 +1,10 @@
 import { Link } from 'react-router-dom';
+import productImage1 from '/src/assets/Featured Products/shop1.jpg';
+import productImage2 from '/src/assets/Featured Products/shop2.jpg';
+import productImage3 from '/src/assets/Featured Products/shop3.jpg';
+import productImage4 from '/src/assets/Featured Products/shop4.jpg';
+import productImage5 from '/src/assets/Featured Products/shop5.jpg';
+import productImage6 from '/src/assets/Featured Products/shop6.jpg';
 import './Shop.css';
 import './Home.css'; // Importing Home.css for consistent styling
 
@@ -10,7 +16,7 @@ function Shop() {
       name: 'Premium Photo Frame',
       description: 'Elegant wooden frame perfect for displaying your cherished memories',
       price: '$29.99',
-      image: 'https://images.unsplash.com/photo-1596727147700-6a0db6fb5a09?w=600',
+      image: productImage1,
       category: 'Frames'
     },
     {
@@ -18,7 +24,7 @@ function Shop() {
       name: 'Vintage Camera',
       description: 'Classic camera for photography enthusiasts and collectors',
       price: '$149.99',
-      image: 'https://images.unsplash.com/photo-1504150554257-6f5c97f00d8d?w=600',
+      image: productImage2,
       category: 'Photo Equipment'
     },
     {
@@ -26,7 +32,7 @@ function Shop() {
       name: 'Birthday Suit Package',
       description: 'Complete birthday celebration package with decorations and props',
       price: '$89.99',
-      image: 'https://images.unsplash.com/photo-1558591718-50d1b53d1d10?w=600',
+      image: productImage3,
       category: 'Party Items'
     },
     {
@@ -34,7 +40,7 @@ function Shop() {
       name: 'Lighting Kit',
       description: 'Professional lighting equipment for perfect photo shoots',
       price: '$199.99',
-      image: 'https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?w=600',
+      image: productImage4,
       category: 'Photo Equipment'
     },
     {
@@ -42,7 +48,7 @@ function Shop() {
       name: 'Festival Decorations',
       description: 'Traditional Sri Lankan festival decorations for cultural celebrations',
       price: '$45.99',
-      image: 'https://images.unsplash.com/photo-1528991435120-e73e05a58897?w=600',
+      image: productImage5,
       category: 'Decorations'
     },
     {
@@ -50,7 +56,7 @@ function Shop() {
       name: 'Photo Album',
       description: 'Premium quality photo album to preserve your memories',
       price: '$39.99',
-      image: 'https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?w=600',
+      image: productImage6,
       category: 'Storage'
     }
   ];
