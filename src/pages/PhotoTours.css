@@ -29,6 +29,7 @@
 
 .phototours-hero-overlay {
   text-align: center;
+  background: linear-gradient(45deg, #ff6b6b, #ffa500);
   color: rgb(252, 252, 252);
   padding: 2rem;
 }
