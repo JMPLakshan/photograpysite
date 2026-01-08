@@ -7,6 +7,7 @@ import festivalImage5 from '/src/assets/Festival/festival5.jpg';
 import festivalImage6 from '/src/assets/Festival/festival6.jpg';
 import festivalImage7 from '/src/assets/Festival/festival7.jpg';
 import festivalImage8 from '/src/assets/Festival/festival8.jpg';
+import festivalHomeImage from '/src/assets/Festival/festivalhome.jpg';
 import './CulturalFestivals.css';
 
 function CulturalFestivals() {
@@ -273,6 +274,9 @@ function CulturalFestivals() {
     <div className="cultural-festivals-page">
       {/* Hero Section */}
       <section className="festivals-hero">
+        <div className="festivals-hero-image">
+          <img src={festivalHomeImage} alt="Cultural Festivals of Sri Lanka" />
+        </div>
         <div className="festivals-hero-overlay"></div>
         <div className="festivals-hero-content">
           <h1 className="festivals-hero-title">Cultural Festivals Photography</h1>
